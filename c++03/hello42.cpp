@@ -1,9 +1,9 @@
 #include <iostream>
-
+using namespace std;
 int main (int argc, char* argv[]) 
 {
-    std::cout << "The answer to the Ultimate Question of Life, the Universe, "
-    	      << "and Everything is:" << std::endl << 6 * 7 << std::endl; 
+    cout << "The answer to the Ultimate Question of Life, the Universe, "
+    	      << "and Everything is:" <<endl << 6 * 7 <<endl; 
     return 0 ;
 }
   
